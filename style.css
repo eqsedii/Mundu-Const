@@ -127,7 +127,7 @@ body:not(.ready) .hero-in>*{opacity:0;transform:translateY(30px)}
 .why b{display:block;font:800 1.4rem "Barlow Condensed",sans-serif;color:var(--navy)}
 
 /* contact */
-.contact{background:linear-gradient(rgba(10,31,92,.9),rgba(10,31,92,.94)),url(assets/img/project-stone-bungalow.jpg) center/cover fixed;color:#fff}
+.contact{background:linear-gradient(rgba(10,31,92,.9),rgba(10,31,92,.94)),url(project-stone-bungalow.jpg) center/cover fixed;color:#fff}
 .contact h2{color:#fff}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
 .phone{display:block;font-size:clamp(2.6rem,7vw,4rem);font-weight:800;color:var(--yellow);margin:14px 0 22px}
@@ -169,3 +169,15 @@ footer p{font-size:.95rem}
  .rv,body:not(.ready) .hero-in>*{opacity:1;transform:none}
  html{scroll-behavior:auto}
 }
+.phero{position:relative;text-align:center;color:#fff;padding:150px 22px 70px;background:linear-gradient(rgba(10,31,92,.88),rgba(10,31,92,.92)),url(project-highrise.jpg) center/cover}
+.phero h1{font-size:clamp(2.4rem,7vw,4rem);font-weight:800}
+.phero p{max-width:600px;margin:10px auto 0;color:#dce5ff}
+nav a.on:not(.btn){color:var(--yellow)}
+nav a.on:not(.btn)::after{width:100%}
+.explore{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.explore a{position:relative;display:block;min-height:210px;border-radius:var(--r);overflow:hidden;color:#fff;box-shadow:0 12px 30px rgba(10,31,92,.25)}
+.explore img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .7s}
+.explore a:hover img{transform:scale(1.1)}
+.explore span{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:20px;background:linear-gradient(transparent 30%,rgba(10,31,92,.95))}
+.explore b{font:800 1.8rem "Barlow Condensed",sans-serif}
+.explore em{font-style:normal;font-size:.95rem;color:#e9eefc}
