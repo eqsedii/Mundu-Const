@@ -181,3 +181,7 @@ nav a.on:not(.btn)::after{width:100%}
 .explore span{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:20px;background:linear-gradient(transparent 30%,rgba(10,31,92,.95))}
 .explore b{font:800 1.8rem "Barlow Condensed",sans-serif}
 .explore em{font-style:normal;font-size:.95rem;color:#e9eefc}
+
+/* failsafe: loader hides itself after 3s even if JavaScript fails */
+#loader{animation:loaderOut .6s 3s forwards}
+@keyframes loaderOut{to{opacity:0;visibility:hidden}}
